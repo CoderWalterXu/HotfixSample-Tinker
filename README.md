@@ -8,4 +8,4 @@
 2.创建一个新的dexElements数组，修复的dex添加在前，未修复的dex添加在后。这样无BUG的类就会先被加载，有BUG的类不会被加载，达到热修复的目的       
 3.通过反射将新的dexElements数组放入到系统的dexElements数组中      
 
-![压缩的示例图片](https://github.com/CoderWalterXu/CompressSample/blob/master/screenshot/S00106-225651.jpg)
+![演示gif](https://github.com/CoderWalterXu/HotfixSample-Tinker/blob/master/picture/hotfix-tinker.gif)
